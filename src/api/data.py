@@ -19,7 +19,7 @@ class data(webapp2.RequestHandler):
         for respondant in respondants.iter():
             for response in respondant.responses:
 
-                csv_output.writerow([respondant.matricule, response.sigle, response.no1, response.no2, response.no3, response.no4, response.no5, response.no6, response.no7, response.no8, response.no9, response.no10, response.no11, response.no12, response.no13, response.no14, response.no15, response.no16, response.no17, response.no18, response.no19, response.no20, response.no21, response.no22, response.no23, response.no24, response.no25, response.no26, response.no27, response.no28, response.no29, response.no30])
+                csv_output.writerow([respondant.matricule, response.sigle, response.no1, response.no2, response.no3, response.no4, response.no5, response.no6, response.no7, response.no8, response.no9, response.no10, response.no11, response.no12, response.no13, response.no14, response.no15, response.no16, response.no17, response.no18, response.no19, response.no20, response.no21, response.no22, response.no23, response.no24, response.no25, response.no26, response.no27, response.no28, response.no29.encode('utf-8'), response.no30.encode('utf-8')])
 
         contents = tmp.getvalue()
         tmp.close()

@@ -37,8 +37,8 @@ class Response(ndb.Model):
     no27 = ndb.IntegerProperty()
     no28 = ndb.IntegerProperty()
 
-    no29 = ndb.StringProperty()
-    no30 = ndb.StringProperty()
+    no29 = ndb.TextProperty()
+    no30 = ndb.TextProperty()
 
 
 class Respondant(ndb.Model):
