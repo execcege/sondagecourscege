@@ -1,0 +1,22 @@
+application: sondagecourscege
+version: 3
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /api/Answer
+  script: api.Answer.application
+- url: /api/data
+  script: api.data.application
+- url: /styles
+  static_dir: dist/styles
+- url: /scripts
+  static_dir: dist/scripts
+- url: /views
+  static_dir: dist/views
+- url: /images
+  static_dir: dist/images
+- url: /
+  upload: dist/index.html
+  static_files: dist/index.html

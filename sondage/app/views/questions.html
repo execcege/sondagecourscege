@@ -1,0 +1,331 @@
+<div>
+    <div class="row text-center">
+        <h1>{{cour[0]}}</h1>
+        <h3>{{cour[1]}}</h3>
+    </div>
+    <!-- no1 -->
+    <div class="row">
+        <h3>Cour magistral</h3>
+    </div>
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>1. Les objectifs du cours sont-ils clairement expliqués au début de la session?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no1" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no1<5, 'warning': form.no1>=5 && form.no1<8, 'success': form.no1>=8}" ng-show="form.no1 != null">{{form.no1}}</span>
+        </div>
+    </div>
+    <!-- no2 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>2. Est-ce que le professeur s’exprime de manière claire et articulée?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no2" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no2<5, 'warning': form.no2>=5 && form.no2<8, 'success': form.no2>=8}" ng-show="form.no2 != null">{{form.no2}}</span>
+        </div>
+    </div>
+    <!-- no3 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>3. Le professeur est-il facile à comprendre?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no3" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no3<5, 'warning': form.no3>=5 && form.no3<8, 'success': form.no3>=8}" ng-show="form.no3 != null">{{form.no3}}</span>
+        </div>
+    </div>
+    <!-- no4 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>4. Le professeur possède-t-il une connaissance approfondie de sa matière?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no4" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no4<5, 'warning': form.no4>=5 && form.no4<8, 'success': form.no4>=8}" ng-show="form.no4 != null">{{form.no4}}</span>
+        </div>
+    </div>
+    <!-- no5 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>5. Les exemples fournit en classe sont-ils clairs et bien expliqués?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no5" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no5<5, 'warning': form.no5>=5 && form.no5<8, 'success': form.no5>=8}" ng-show="form.no5 != null">{{form.no5}}</span>
+        </div>
+    </div>
+    <!-- no6 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>6. Le professeur est-il préparé lors qu’il enseigne ses cours?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no6" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no6<5, 'warning': form.no6>=5 && form.no6<8, 'success': form.no6>=8}" ng-show="form.no6 != null">{{form.no6}}</span>
+        </div>
+    </div>
+    <!-- no7 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>7. La matière enseignée est-elle à jour?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no7" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no7<5, 'warning': form.no7>=5 && form.no7<8, 'success': form.no7>=8}" ng-show="form.no7 != null">{{form.no7}}</span>
+        </div>
+    </div>
+    <!-- no8 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>8. Est-ce que la matière est présentée de manière organisée?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no8" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no8<5, 'warning': form.no8>=5 && form.no8<8, 'success': form.no8>=8}" ng-show="form.no8 != null">{{form.no8}}</span>
+        </div>
+    </div>
+    <!-- no9 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>9. Y-a-t-il suffisamment de temps fourni pour la complétion des laboratoires et des devoirs?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no9" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no9<5, 'warning': form.no9>=5 && form.no9<8, 'success': form.no9>=8}" ng-show="form.no9 != null">{{form.no9}}</span>
+        </div>
+    </div>
+    <!-- no10 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>10. Les supports pédagogiques sont-ils pertinents et bien réalisés?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no10" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no10<5, 'warning': form.no10>=5 && form.no10<8, 'success': form.no10>=8}" ng-show="form.no10 != null">{{form.no10}}</span>
+        </div>
+    </div>
+    <!-- no11 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>11. Est-ce que la page du site Moodle du cours est bien réalisée et supporte le cours?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no11" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no11<5, 'warning': form.no11>=5 && form.no11<8, 'success': form.no11>=8}" ng-show="form.no11 != null">{{form.no11}}</span>
+        </div>
+    </div>
+    <!-- no12 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>12. Est-ce que les évaluations sont justes?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no12" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no12<5, 'warning': form.no12>=5 && form.no12<8, 'success': form.no12>=8}" ng-show="form.no12 != null">{{form.no12}}</span>
+        </div>
+    </div>
+    <!-- no13 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>13. Est-ce que les examens portent sur la matière du cours?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no13" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no13<5, 'warning': form.no13>=5 && form.no13<8, 'success': form.no13>=8}" ng-show="form.no13 != null">{{form.no13}}</span>
+        </div>
+    </div>
+    <!-- no14 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>14. Le professeur montre-t-il de l’intérêt à enseigner la matière?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no14" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no14<5, 'warning': form.no14>=5 && form.no14<8, 'success': form.no14>=8}" ng-show="form.no14 != null">{{form.no14}}</span>
+        </div>
+    </div>
+    <!-- no15 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>15. Avez-vous développé un intérêt pour la matière enseignée?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no15" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no15<5, 'warning': form.no15>=5 && form.no15<8, 'success': form.no15>=8}" ng-show="form.no15 != null">{{form.no15}}</span>
+        </div>
+    </div>
+    <!-- no16 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>16. Étiez-vous attentifs en classe?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no16" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no16<5, 'warning': form.no16>=5 && form.no16<8, 'success': form.no16>=8}" ng-show="form.no16 != null">{{form.no16}}</span>
+        </div>
+    </div>
+    <!-- no17 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>17. Est-ce que vous participiez activement au cours?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no17" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no17<5, 'warning': form.no17>=5 && form.no17<8, 'success': form.no17>=8}" ng-show="form.no17 != null">{{form.no17}}</span>
+        </div>
+    </div>
+    <!-- no18 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>18. Aimeriez-vous que le professeur enseigne de nouveau cette matière?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no18" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no18<5, 'warning': form.no18>=5 && form.no18<8, 'success': form.no18>=8}" ng-show="form.no18 != null">{{form.no18}}</span>
+        </div>
+    </div>
+    <!-- no19 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>19. Le professeur s’exprime-t-il bien en français?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no19" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no19<5, 'warning': form.no19>=5 && form.no19<8, 'success': form.no19>=8}" ng-show="form.no19 != null">{{form.no19}}</span>
+        </div>
+    </div>
+    <!-- no20 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>20. Est-ce que la correction des examens et des travaux s’est effectuée dans un délai raisonnable?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no20" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no20<5, 'warning': form.no20>=5 && form.no20<8, 'success': form.no20>=8}" ng-show="form.no20 != null">{{form.no20}}</span>
+        </div>
+    </div>
+    <!-- no21 -->
+    <div class="row">
+        <div class="large-9 columns">
+            <h5>21. Est-ce que la correction des examens et des travaux est juste et détaillée?</h5>
+        </div>
+        <div class="large-3 columns">
+            <rating value="form.no21" max="10"></rating>
+            <span class="label" ng-class="{'alert': form.no21<5, 'warning': form.no21>=5 && form.no21<8, 'success': form.no21>=8}" ng-show="form.no21 != null">{{form.no21}}</span>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+    <!-- Laboratoires -->
+    <div ng-if="cour[3]">
+        <div class="row">
+            <h3>Laboratoires</h3>
+        </div>
+        <!-- no22 -->
+        <div class="row">
+            <div class="large-9 columns">
+                <h5>22. Dans l’ensemble de leurs comportements, est-ce que le personnel enseignant respecte les élèves?</h5>
+            </div>
+            <div class="large-3 columns">
+                <rating value="form.no22" max="10"></rating>
+                <span class="label" ng-class="{'alert': form.no22<5, 'warning': form.no22>=5 && form.no22<8, 'success': form.no22>=8}" ng-show="form.no22 != null">{{form.no22}}</span>
+            </div>
+        </div>
+        <!-- no23 -->
+        <div class="row">
+            <div class="large-9 columns">
+                <h5>23. Est-ce que les laboratoires permettent d’approfondir la matière vue en cours?</h5>
+            </div>
+            <div class="large-3 columns">
+                <rating value="form.no23" max="10"></rating>
+                <span class="label" ng-class="{'alert': form.no23<5, 'warning': form.no23>=5 && form.no23<8, 'success': form.no23>=8}" ng-show="form.no23 != null">{{form.no23}}</span>
+            </div>
+        </div>
+        <!-- no24 -->
+        <div class="row">
+            <div class="large-9 columns">
+                <h5>24. Est-il facile de voir les liens entre les laboratoires et le cours?</h5>
+            </div>
+            <div class="large-3 columns">
+                <rating value="form.no24" max="10"></rating>
+                <span class="label" ng-class="{'alert': form.no24<5, 'warning': form.no24>=5 && form.no24<8, 'success': form.no24>=8}" ng-show="form.no24 != null">{{form.no24}}</span>
+            </div>
+        </div>
+        <!-- no25 -->
+        <div class="row">
+            <div class="large-9 columns">
+                <h5>25. Est-ce que le matériel à la disposition des étudiants est de bonne qualité et en nombre suffisant?</h5>
+            </div>
+            <div class="large-3 columns">
+                <rating value="form.no25" max="10"></rating>
+                <span class="label" ng-class="{'alert': form.no25<5, 'warning': form.no25>=5 && form.no25<8, 'success': form.no25>=8}" ng-show="form.no25 != null">{{form.no25}}</span>
+            </div>
+        </div>
+        <!-- no26 -->
+        <div class="row">
+            <div class="large-9 columns">
+                <h5>26. Est-ce que les chargés de laboratoires sont compétents et connaissent bien la matière du cours?</h5>
+            </div>
+            <div class="large-3 columns">
+                <rating value="form.no26" max="10"></rating>
+                <span class="label" ng-class="{'alert': form.no26<5, 'warning': form.no26>=5 && form.no26<8, 'success': form.no26>=8}" ng-show="form.no26 != null">{{form.no26}}</span>
+            </div>
+        </div>
+        <!-- no27 -->
+        <div class="row">
+            <div class="large-9 columns">
+                <h5>27. Est-ce que les chargés de laboratoire sont disponibles pour offrir du support lors des laboratoires?</h5>
+            </div>
+            <div class="large-3 columns">
+                <rating value="form.no27" max="10"></rating>
+                <span class="label" ng-class="{'alert': form.no27<5, 'warning': form.no27>=5 && form.no27<8, 'success': form.no27>=8}" ng-show="form.no27 != null">{{form.no27}}</span>
+            </div>
+        </div>
+        <!-- no28 -->
+        <div class="row">
+            <div class="large-9 columns">
+                <h5>28. Existe-t-il une bonne coordination entre les laboratoires et les cours? (ex: la matière est vue en classe avant les laboratoires)</h5>
+            </div>
+            <div class="large-3 columns">
+                <rating value="form.no28" max="10"></rating>
+                <span class="label" ng-class="{'alert': form.no28<5, 'warning': form.no28>=5 && form.no28<8, 'success': form.no28>=8}" ng-show="form.no28 != null">{{form.no28}}</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr>
+    <div class="row">
+        <h3>Commentaires</h3>
+    </div>
+    <!-- no29 -->
+    <div class="row">
+        <div class="large-8 columns">
+            <h5>Avez-vous rencontré des problèmes face à ce cours?</h5>
+        </div>
+        <div class="large-4 columns">
+            <textarea ng-model="form.no29"></textarea>
+        </div>
+    </div>
+    <!-- no30 -->
+    <div class="row">
+        <div class="large-8 columns">
+            <h5>Avez-vous des commentaires relatifs aux cours?</h5>
+        </div>
+        <div class="large-4 columns">
+            <textarea ng-model="form.no30"></textarea>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <button class="success" ng-click="getNext()">Continuer</button>
+    </div>
+
+
+</div>
