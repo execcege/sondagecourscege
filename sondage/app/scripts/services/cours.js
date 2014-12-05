@@ -134,7 +134,8 @@ angular.module('sondageApp')
             ["SPL4460", "Langue vivante", false, false],
             ["SPL4430", "Systèmes électriques", false, false],
             ["SPL4480", "Réseaux d'énergie", false, false],
-            ["SPL4410", "Sources et production d'énergie", false, false]
+            ["SPL4410", "Sources et production d'énergie", false, false],
+            ["MTH2302A", "Probabilités et statistique", false, false]
         ];
 
         this.getCours = function () {

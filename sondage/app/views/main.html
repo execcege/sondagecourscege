@@ -20,7 +20,7 @@
                     <tr><th>Choisi</th><th>Sigle</th><th>Titre</th></tr>
                     <tr ng-repeat="cour in cours | filter:searchText">
                         <td><input type="checkbox" ng-model="cour[2]"> </td>
-                        <td><a href="http://www.polymtl.ca/etudes/cours/details.php?sigle={{cour[0]}}">{{cour[0]}}</a></td>
+                        <td><a href="http://www.polymtl.ca/etudes/cours/details.php?sigle={{cour[0]}}" target="_blank">{{cour[0]}}</a></td>
                         <td>{{cour[1]}}</td>
                     </tr>
                 </table>

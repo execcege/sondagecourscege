@@ -69,8 +69,8 @@ angular.module('sondageApp')
             'no26' : null,
             'no27' : null,
             'no28' : null,
-            'no29' : null,
-            'no30' : null
+            'no29' : "",
+            'no30' : ""
         }
     };
 
